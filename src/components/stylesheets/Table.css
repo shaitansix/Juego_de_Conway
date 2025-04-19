@@ -1,0 +1,19 @@
+.table-wrapper {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    
+    border: 2px solid var(--color-secondary-2);
+}
+
+.table-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    height: 520px;
+}
+
+.table-grid {
+    display: grid;
+}

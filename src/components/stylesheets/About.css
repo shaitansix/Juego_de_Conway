@@ -1,0 +1,21 @@
+.about-wrapper {
+    padding: 0 32px;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-rules, 
+.about-details {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.about-rule-item>:first-child, 
+.about-detail-item>:first-child {
+    color: var(--color-primary-1);
+}

@@ -1,0 +1,25 @@
+.footer-wrapper {
+    padding: 0 32px;
+    width: 100%;
+
+    box-sizing: border-box;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer-rules, 
+.footer-details {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.footer-rule-item>:first-child, 
+.footer-detail-item>:first-child {
+    color: var(--color-primary-1);
+    font-weight: 500;
+}
