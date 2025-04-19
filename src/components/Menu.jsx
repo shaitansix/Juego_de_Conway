@@ -36,7 +36,7 @@ const Menu = ({ dims, loopState, activeState, speedState, scaleState, matrixStat
 
     const handleExample = (idx) => {
         matrixState.setMatrix(
-            fillMatrix(matrixState.matrix, patterns[idx])
+            fillMatrix(setupMatrix(dims.m, dims.n), patterns[idx])
         )
     }
 
