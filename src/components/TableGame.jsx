@@ -64,7 +64,7 @@ const TableGame = () => {
     return (
         <section className = 'tablegame-wrapper'>
             <div className = 'tablegame-container'>
-                <span className = 'title'>Conway's Game of Life</span>
+                <span className = 'title'>El juego de la vida de Conway</span>
                 <About />
 
                 <article className = 'tablegame-body'>
